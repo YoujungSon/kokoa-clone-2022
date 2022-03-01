@@ -65,3 +65,6 @@ body {
   color: inherit;
   font-size: 13px;
 }
+.main-screen {
+  padding: 0 var(--horizontal-space);
+}
