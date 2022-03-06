@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding: 20px;
   background-color: #f9f9fa;
   box-sizing: border-box;
   border-top: 1px solid rgba(120, 120, 120, 0.3);
@@ -21,7 +22,10 @@
   }
 }
 .nav__btn {
-  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
   transform: translateY(50px);
   opacity: 0;
   animation: appearBtnAnimation 0.3s ease-in-out forwards;
